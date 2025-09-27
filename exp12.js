@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const authRoutes = require("./routes/auth11");
-const protectedRoutes = require("./routes/protected");
+const protectedRoutes = require("./routes/protected12");
 
 const app = express();
 app.use(bodyParser.json());
